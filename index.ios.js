@@ -4,8 +4,8 @@
  */
 'use strict';
 
-var NativeRNShare = require('react-native').NativeModules.RNShare;
-// var NativeRNShare = NativeModules.RNShare;
+var NativeRNShare = require('NativeModules').RNShare;
+var invariant = require('invariant');
 
 /**
  * High-level docs for the RNShare iOS API can be written here.
